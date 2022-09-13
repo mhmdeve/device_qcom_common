@@ -13,8 +13,8 @@
 # limitations under the License.
 
 # Include display HAL makefiles.
--include hardware/qcom/display/config/display-board.mk
--include hardware/qcom/display/config/display-product.mk
+-include $(TARGET_HALS_PATH)/display/config/display-board.mk
+-include $(TARGET_HALS_PATH)/display/config/display-product.mk
 
 # Permissions
 PRODUCT_COPY_FILES += \
